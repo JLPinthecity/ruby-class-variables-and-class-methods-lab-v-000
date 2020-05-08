@@ -9,6 +9,8 @@ class Song
     @@genres << self.genre if @@genres exclude?(self.genre)
     @@artists << self.artist if @@artists exclude?(self.artist)
   end
+end
+  end
 
   def count
     @@count
